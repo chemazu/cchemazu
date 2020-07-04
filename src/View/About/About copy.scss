@@ -53,6 +53,9 @@ hr{
     // color: #504e4e;
     color: rgb(206, 205, 205);
 }
+#paragraph{
+    max-width :450px; 
+}
 .bio {
     h3 {
     // color: #504e4e;
@@ -77,9 +80,6 @@ hr{
     .text{
         display: flex;
         align-items: center;
-        &:hover{
-
-        }
         p{
             padding-right: 15px;
             color:#ff6961 ;
@@ -94,5 +94,17 @@ hr{
     .topBar{
         display: flex; //for mobile change it to 
         flex-direction: column;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .About{
+        // width: 100vw;
+        // height: 100vh;
+        padding:0 50px;
+        padding-top: 100px;
+       background-color: #08080dd8;
+       color: white;
+    height: 100vh;
     }
   }

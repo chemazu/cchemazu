@@ -1,5 +1,6 @@
 import React from 'react'
-import "./About.scss"
+// import "./About.scss"
+import "./About copy.scss"
 import Skater from "../../Images/Skater.svg"
 import linkedin from "../../Images/linkedin.svg"
 import instagram from "../../Images/instagram.svg"
@@ -20,16 +21,16 @@ export default function About() {
             <div className="topBarSecond">
                 <div className="topBarSecond-first">
                 <p>Services</p>
-                <p>Work</p>
                 <p>Blog</p>
+                <p>Contact</p>
                 </div>
                 <div className="bio">
                     <p className="introduction">-Introduction</p>
                     <h3 className="bioHeading">Software Developer and Product Designer </h3><h3>based in Lagos,Nigeria.</h3>
-                    <p className="introduction">
-                    But I must explain to you how all this mistaken idea of denouncing <br/>pleasure and 
-                    praising pain was born and I will give you <br/>a complete account of the system,
-                    and expound <br/>the actual teachings.</p>
+                    <p className="introduction" id="paragraph">
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and 
+                    praising pain was born and I will give you a complete account of the system,
+                    and expound the actual teachings.</p>
                     <div className="learnMore">
                     <div className="text">
                         <p>my story</p>
@@ -37,8 +38,6 @@ export default function About() {
                     </div>
                     <hr/>
                     </div>
-                    
-
                 </div>
             </div>
             </div>

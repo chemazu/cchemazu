@@ -1,19 +1,16 @@
 .About{
     // width: 100vw;
     // height: 100vh;
-    padding:0 100px;
-    padding-top: 100px;
+    padding:0 60px;
+    padding-top: 150px;
    background-color: #08080dd8;
    color: white;
 height: 100vh;
-
-
-
 }
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: Bold 700;
-    font-size: 35px;
+    font-size: 20px; //change
     padding: 0px;
 }
 hr{
@@ -52,6 +49,10 @@ hr{
     line-height: 20px;
     // color: #504e4e;
     color: rgb(206, 205, 205);
+    
+}
+#paragraph{
+    max-width :450px; 
 }
 .bio {
     h3 {
@@ -77,9 +78,6 @@ hr{
     .text{
         display: flex;
         align-items: center;
-        &:hover{
-
-        }
         p{
             padding-right: 15px;
             color:#ff6961 ;
