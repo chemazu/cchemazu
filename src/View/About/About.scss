@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.About{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: Bold 700;
+    font-size: 35px;
+    padding: 0px;
+}
+
+hr{
+    width: 25px;
+    height: 3px;
+    border: 1px solid #ff6961;;
+    background-color:#ff6961;;
+}
+.skater{
+    width: 150%;
+}
+.socials{
+    width: 1.95%;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Intro.css"
+import "./Intro.scss"
 import NameSvg from './NameSvg'
 
 export default function Intro() {
