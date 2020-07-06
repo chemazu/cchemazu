@@ -1,50 +1,78 @@
-import React from 'react'
-// import "./About.scss"
-import "./About copy.scss"
-import Skater from "../../Images/Skater.svg"
+import React, { Component } from 'react'
+import "./About.scss"
 import linkedin from "../../Images/linkedin.svg"
 import instagram from "../../Images/instagram.svg"
-import arrow from "../../Images/right-arrow.svg"
+import MiniView from '../MiniView/MiniView'
 
-export default function About() {
-    return (
-        <div className ="About">
-            <div className="topBar">
-                <div className="topBarFirst">
-                    <h2>Chemazu</h2>
-                    <h2>Chukwuemeka.</h2>
-                    <hr/>
-                    <div className="socialsWrapper">
-                <img src= {linkedin} alt="@cchemazu" className="socials"/>
-            </div>
+export class About extends Component {
+    constructor(){
+        super()
+        this.state={
+            Services:true,
+            Work:false,
+            Contact:false
+        }
+    }
+    showService= ()=>{
+        this.setState({
+            Services:true,
+            Work:false,
+            Contact:false
+        })
+
+    }
+    showWork= ()=>{
+        this.setState({
+            Services:false,
+            Work:true,
+            Contact:false
+        })
+
+    }
+    showContact= ()=>{
+        this.setState({
+            Services:false,
+            Work:false,
+            Contact:true
+        })
+
+    }
+    render() {
+        const {Services,Work,Contact} = this.state
+        
+        return (
+            <div className ="About">
+                <div className="topBar">
+                    <div className="topBarFirst">
+                        <h2>Chemazu</h2>
+                        <h2>Chukwuemeka.</h2>
+                        <hr/>
+                        <div className="socialsWrapper">
+                    <img src= {linkedin} alt="@cchemazu" className="socials"/>
                 </div>
-            <div className="topBarSecond">
-                <div className="topBarSecond-first">
-                <p>Services</p>
-                <p>Blog</p>
-                <p>Contact</p>
-                </div>
-                <div className="bio">
-                    <p className="introduction">-Introduction</p>
-                    <h3 className="bioHeading">Software Developer and Product Designer </h3><h3>based in Lagos,Nigeria.</h3>
-                    <p className="introduction" id="paragraph">
-                    But I must explain to you how all this mistaken idea of denouncing pleasure and 
-                    praising pain was born and I will give you a complete account of the system,
-                    and expound the actual teachings.</p>
-                    <div className="learnMore">
-                    <div className="text">
-                        <p>my story</p>
-                        <img src={arrow} alt="learn more"/>
                     </div>
-                    <hr/>
+                <div className="topBarSecond">
+                    <div className="topBarSecond-first">
+                    {/* <p onClick={setMiniView("Services")}>Services</p>
+                    <p onClick={setMiniView("Work")}>Work</p>
+                    <p onClick={setMiniView("Contact")}>Contact</p> */}
+                    <p onClick={this.showService}>Services</p>
+                    <p onClick={this.showWork}>Work</p>
+                    <p onClick={this.showContact}>Contact</p>
+                    
                     </div>
+                    {Services?<MiniView display="Services"/>:null}
+                    {Work?<MiniView display="Work"/>:null}
+                    {Contact?<MiniView display="Contact"/>:null}
                 </div>
+                </div>
+                
+                
+                
+               
             </div>
-            </div>
-            
-            
-            
-           
-        </div>
-    )
+        )
+    }
 }
+
+export default About

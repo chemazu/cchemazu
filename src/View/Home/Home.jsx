@@ -10,7 +10,7 @@ export default function Home() {
             <Intro/>
             <div className="navItem">
                 <p><Link to ="/me">me</Link></p>
-                <p>request a service</p>
+                <p><Link to ="/services">request a service</Link></p>
                 <p>shop</p>
                 <p>contact</p>
             </div>
