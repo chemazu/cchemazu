@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cchemazu/static/css/main.000494b2.chunk.css",
-    "main.js": "/cchemazu/static/js/main.89828cbe.chunk.js",
-    "main.js.map": "/cchemazu/static/js/main.89828cbe.chunk.js.map",
+    "main.css": "/cchemazu/static/css/main.f53c3b19.chunk.css",
+    "main.js": "/cchemazu/static/js/main.044f191c.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.044f191c.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
     "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
     "static/js/2.db880366.chunk.js": "/cchemazu/static/js/2.db880366.chunk.js",
     "static/js/2.db880366.chunk.js.map": "/cchemazu/static/js/2.db880366.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.ea1f3a9811cd07b6b10276e31d5688b6.js": "/cchemazu/precache-manifest.ea1f3a9811cd07b6b10276e31d5688b6.js",
+    "precache-manifest.df758394ace498c70b6df29693d63cb4.js": "/cchemazu/precache-manifest.df758394ace498c70b6df29693d63cb4.js",
     "service-worker.js": "/cchemazu/service-worker.js",
-    "static/css/main.000494b2.chunk.css.map": "/cchemazu/static/css/main.000494b2.chunk.css.map",
+    "static/css/main.f53c3b19.chunk.css.map": "/cchemazu/static/css/main.f53c3b19.chunk.css.map",
     "static/js/2.db880366.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.db880366.chunk.js.LICENSE.txt",
     "static/media/instagram.svg": "/cchemazu/static/media/instagram.04f1d872.svg",
     "static/media/linkedin.svg": "/cchemazu/static/media/linkedin.3c8afea5.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.f48920e0.js",
     "static/js/2.db880366.chunk.js",
-    "static/css/main.000494b2.chunk.css",
-    "static/js/main.89828cbe.chunk.js"
+    "static/css/main.f53c3b19.chunk.css",
+    "static/js/main.044f191c.chunk.js"
   ]
 }
