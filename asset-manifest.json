@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cchemazu/static/css/main.000494b2.chunk.css",
+    "main.js": "/cchemazu/static/js/main.35df2458.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.35df2458.chunk.js.map",
+    "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
+    "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
+    "static/js/2.03fc385b.chunk.js": "/cchemazu/static/js/2.03fc385b.chunk.js",
+    "static/js/2.03fc385b.chunk.js.map": "/cchemazu/static/js/2.03fc385b.chunk.js.map",
+    "index.html": "/cchemazu/index.html",
+    "precache-manifest.119163dfa00ccddfb76f5b7487d69e93.js": "/cchemazu/precache-manifest.119163dfa00ccddfb76f5b7487d69e93.js",
+    "service-worker.js": "/cchemazu/service-worker.js",
+    "static/css/main.000494b2.chunk.css.map": "/cchemazu/static/css/main.000494b2.chunk.css.map",
+    "static/js/2.03fc385b.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.03fc385b.chunk.js.LICENSE.txt",
+    "static/media/instagram.svg": "/cchemazu/static/media/instagram.04f1d872.svg",
+    "static/media/linkedin.svg": "/cchemazu/static/media/linkedin.3c8afea5.svg",
+    "static/media/logo.svg": "/cchemazu/static/media/logo.5d5d9eef.svg",
+    "static/media/right-arrow.svg": "/cchemazu/static/media/right-arrow.0e9b9fd2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f48920e0.js",
+    "static/js/2.03fc385b.chunk.js",
+    "static/css/main.000494b2.chunk.css",
+    "static/js/main.35df2458.chunk.js"
+  ]
+}
