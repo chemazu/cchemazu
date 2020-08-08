@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cchemazu/static/css/main.08ac0944.chunk.css",
-    "main.js": "/cchemazu/static/js/main.642b42cf.chunk.js",
-    "main.js.map": "/cchemazu/static/js/main.642b42cf.chunk.js.map",
+    "main.js": "/cchemazu/static/js/main.08c99618.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.08c99618.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
     "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
     "static/js/2.e3a0fd2c.chunk.js": "/cchemazu/static/js/2.e3a0fd2c.chunk.js",
     "static/js/2.e3a0fd2c.chunk.js.map": "/cchemazu/static/js/2.e3a0fd2c.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.15cef8453e4dba8f3b5535b1d43a28cf.js": "/cchemazu/precache-manifest.15cef8453e4dba8f3b5535b1d43a28cf.js",
+    "precache-manifest.e70a28237cecd795efa8aeafde1ddfbe.js": "/cchemazu/precache-manifest.e70a28237cecd795efa8aeafde1ddfbe.js",
     "service-worker.js": "/cchemazu/service-worker.js",
     "static/css/main.08ac0944.chunk.css.map": "/cchemazu/static/css/main.08ac0944.chunk.css.map",
     "static/js/2.e3a0fd2c.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.e3a0fd2c.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.f48920e0.js",
     "static/js/2.e3a0fd2c.chunk.js",
     "static/css/main.08ac0944.chunk.css",
-    "static/js/main.642b42cf.chunk.js"
+    "static/js/main.08c99618.chunk.js"
   ]
 }
