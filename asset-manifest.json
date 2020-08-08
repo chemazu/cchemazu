@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/cchemazu/static/css/main.f53c3b19.chunk.css",
-    "main.js": "/cchemazu/static/js/main.044f191c.chunk.js",
-    "main.js.map": "/cchemazu/static/js/main.044f191c.chunk.js.map",
+    "main.css": "/cchemazu/static/css/main.08ac0944.chunk.css",
+    "main.js": "/cchemazu/static/js/main.642b42cf.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.642b42cf.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
     "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
-    "static/js/2.db880366.chunk.js": "/cchemazu/static/js/2.db880366.chunk.js",
-    "static/js/2.db880366.chunk.js.map": "/cchemazu/static/js/2.db880366.chunk.js.map",
+    "static/js/2.e3a0fd2c.chunk.js": "/cchemazu/static/js/2.e3a0fd2c.chunk.js",
+    "static/js/2.e3a0fd2c.chunk.js.map": "/cchemazu/static/js/2.e3a0fd2c.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.df758394ace498c70b6df29693d63cb4.js": "/cchemazu/precache-manifest.df758394ace498c70b6df29693d63cb4.js",
+    "precache-manifest.15cef8453e4dba8f3b5535b1d43a28cf.js": "/cchemazu/precache-manifest.15cef8453e4dba8f3b5535b1d43a28cf.js",
     "service-worker.js": "/cchemazu/service-worker.js",
-    "static/css/main.f53c3b19.chunk.css.map": "/cchemazu/static/css/main.f53c3b19.chunk.css.map",
-    "static/js/2.db880366.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.db880366.chunk.js.LICENSE.txt",
-    "static/media/instagram.svg": "/cchemazu/static/media/instagram.04f1d872.svg",
-    "static/media/linkedin.svg": "/cchemazu/static/media/linkedin.3c8afea5.svg",
+    "static/css/main.08ac0944.chunk.css.map": "/cchemazu/static/css/main.08ac0944.chunk.css.map",
+    "static/js/2.e3a0fd2c.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.e3a0fd2c.chunk.js.LICENSE.txt",
+    "static/media/box.svg": "/cchemazu/static/media/box.d7d2128a.svg",
+    "static/media/codepen.svg": "/cchemazu/static/media/codepen.cfb59a77.svg",
+    "static/media/PortfolioCard.scss": "/cchemazu/static/media/expedicom.b9208e44.jpg",
+    "static/media/github.svg": "/cchemazu/static/media/github.cbdeb7be.svg",
+    "static/media/linkedin.svg": "/cchemazu/static/media/linkedin.d9ba6ada.svg",
     "static/media/logo.svg": "/cchemazu/static/media/logo.5d5d9eef.svg",
+    "static/media/monitor.svg": "/cchemazu/static/media/monitor.82297b90.svg",
+    "static/media/pen.svg": "/cchemazu/static/media/pen.26bc8c11.svg",
     "static/media/right-arrow.svg": "/cchemazu/static/media/right-arrow.0e9b9fd2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f48920e0.js",
-    "static/js/2.db880366.chunk.js",
-    "static/css/main.f53c3b19.chunk.css",
-    "static/js/main.044f191c.chunk.js"
+    "static/js/2.e3a0fd2c.chunk.js",
+    "static/css/main.08ac0944.chunk.css",
+    "static/js/main.642b42cf.chunk.js"
   ]
 }
