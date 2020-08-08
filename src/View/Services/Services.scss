@@ -1,0 +1,67 @@
+.Services {
+  display: flex;
+  flex-direction: column;
+}
+.display {
+  height: 70vh;
+  background-color: #4f4346;
+  color: whitesmoke;
+}
+.downBanner {
+  height: 30vh;
+  background-color: #08080dd8;
+}
+.skillSet {
+  z-index: 2;
+  // height: 25vh;
+  display: flex;
+  position: absolute;
+  top: 55.5vh;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.singleSkill {
+  width: 15.6rem;
+  height: 15.6rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff6961;
+  padding-left: 15px;
+  padding-right: 15px;
+  &:hover {
+    background-color: #ad4e49;
+    color: white;
+    cursor: pointer;
+  }
+}
+.push {
+  height: 50%;
+}
+.under {
+  padding: 5px;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 15px;
+  div {
+    padding-left: 30px;
+  }
+  img {
+    width: 15%;
+    align-self: flex-start;
+  }
+}
+.skill {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0px;
+}
+.project {
+  font-family: "Share Tech", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.skillLogo {
+  width: 15%;
+  align-self: flex-start;
+}

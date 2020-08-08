@@ -2,12 +2,11 @@
   // width: 100vw;
   // height: 100vh;
   padding: 0 100px;
-  padding-top: 100px;
+  padding-top: 15vh;
   background-color: #08080dd8;
   color: white;
   height: 100vh;
 }
-
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: Bold 700;
@@ -30,6 +29,10 @@ hr {
 .topBarSecond {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+.topBarFirst {
+  width: 40%;
 }
 .topBarSecond-first {
   display: flex;
@@ -53,7 +56,7 @@ hr {
   color: white;
 }
 #paragraph {
-  max-width: 450px;
+  // max-width: 450px;
 }
 .bio {
   h3 {
