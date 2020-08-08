@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./About.scss";
 import linkedin from "../../Images/linkedin.svg";
-import instagram from "../../Images/instagram.svg";
+import github from "../../Images/github.svg";
+import codepen from "../../Images/codepen.svg";
 import MiniView from "../MiniView/MiniView";
 import C from "../../Images/C.png";
 
@@ -47,6 +48,8 @@ export class About extends Component {
             <hr />
             <div className="socialsWrapper">
               <img src={linkedin} alt="@cchemazu" className="socials" />
+              <img src={github} alt="@cchemazu" className="socials" />
+              <img src={codepen} alt="@cchemazu" className="socials" />
             </div>
           </div>
           <div className="topBarSecond">

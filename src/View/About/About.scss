@@ -68,7 +68,9 @@ hr {
   width: 100%;
 }
 .socials {
-  width: 1.75%;
+  padding: 20px;
+  padding-left: 0px;
+  width: 5%;
 }
 .learnMore {
   hr {
@@ -109,5 +111,9 @@ hr {
     background-color: #08080dd8;
     color: white;
     height: 100vh;
+  }
+  .topBarSecond,
+  .topBarFirst {
+    width: 100%;
   }
 }

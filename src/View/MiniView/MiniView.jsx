@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import arrow from "../../Images/right-arrow.svg";
+import "./MiniView.scss";
+import PortfolioCard from "../../Custom/PortfolioCard/PortfolioCard";
 
 export default function MiniView({ display }) {
   switch (display) {
@@ -13,9 +15,10 @@ export default function MiniView({ display }) {
           </h3>
           <h3>based in Lagos, Nigeria.</h3>
           <p className="introduction" id="paragraph">
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings.
+            An Asute web developer that prides himself for being self aware, and
+            puts in conscious effort in getting better as a person and in his
+            craft, when he isnt coding ,he can be found working out, getting
+            them gainz.
           </p>
           <div className="learnMore">
             <Link to="/services">
@@ -33,12 +36,18 @@ export default function MiniView({ display }) {
       return (
         <div className="bio">
           <p className="introduction">-Portfolio</p>
-          <h3 className="bioHeading">All Creative works Selected Projects.</h3>
+          <h3 className="bioHeading">Creative Works</h3>
           <p className="introduction" id="paragraph">
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings.
+            All Creative work carfully curated and presented, for aesthics and
+            functionality. You cant use up creativity,the more you use, the more
+            you have in your significant life
           </p>
+          <div className="portfolioCardWrapper">
+            <PortfolioCard content={"Expedicom"} />
+            {/* <PortfolioCard content={"Rotimi"} />
+            <PortfolioCard content={"Medgric"} /> */}
+          </div>
+
           <div className="learnMore">
             <div className="text">
               <p>explore more</p>
