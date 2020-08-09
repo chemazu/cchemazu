@@ -1,49 +1,55 @@
 import React from "react";
 import "./Services.scss";
 import monitor from "../../Images/monitor.svg";
+import box from "../../Images/box.svg";
+import pen from "../../Images/pen.svg";
 
 export default function Services() {
   return (
     <div className="Services">
-      <div className="displayBlock">Display</div>
-      <div className="positionBlock">
-        <div className="position">
-          <img src={monitor} />
-          <p className="skill">
-            Fullstack <br />
-            Developer <p className="skillSubset">125 Projects"</p>
-          </p>
+      <div className="display">
+        Currently i have no project project ideas include
+        <ul>
+          <li>mango.com: e-commerce</li>
+          <li>a site for music spotify api </li>
+          <li>a site for job application</li>
+          <li>a property site </li>
+        </ul>
+        You can't use up creativity. The more you use, the more you have.
+      </div>
+      <div className="downBanner"></div>
+      <div className="skillSet">
+        <div className="singleSkill">
+          <div className="push"></div>
+          <div className="under">
+            <img className="skillLogo" src={box} />
+            <div>
+              <p className="skill">Product Designer.</p>
+              <p className="project">38 Projects</p>
+            </div>
+          </div>
         </div>
-        <div className="position">
-          <img src={monitor} />
-          <p className="skill">
-            Fullstack <br />
-            Developer <p className="skillSubset">125 Projects"</p>
-          </p>
+        <div className="singleSkill">
+          <div className="push"></div>
+          <div className="under">
+            <img className="skillLogo" src={pen} />
+            <div>
+              <p className="skill">Branding Designer.</p>
+              <p className="project">38 Projects</p>
+            </div>
+          </div>
         </div>
-        <div className="position">
-          <img src={monitor} />
-          <p className="skill">
-            Fullstack <br />
-            Developer <p className="skillSubset">125 Projects"</p>
-          </p>
+        <div className="singleSkill">
+          <div className="push"></div>
+          <div className="under">
+            <img className="skillLogo" src={monitor} />
+            <div>
+              <p className="skill">Full Stack Developer.</p>
+              <p className="project">38 Projects</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="position">
-          <div className="r">
-            
-            <div>
-              <h4 className="bioHeading">
-                FullStack <br />
-                Developer <p className="skillSubet">125 Projects"</p>
-                <p className="introduction"> 124 Project</p>
-              </h4>
-            </div>
-          </div>
-        </div> */
 }

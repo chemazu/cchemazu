@@ -1,67 +1,47 @@
 .Services {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
 .display {
-  height: 70vh;
-  background-color: #4f4346;
-  color: whitesmoke;
+  background-color: orangered;
+  padding: 2rem;
 }
-.downBanner {
-  height: 30vh;
-  background-color: #08080dd8;
+p.skill,
+p.project {
+  padding: 0px;
+  margin: 0px;
 }
 .skillSet {
-  z-index: 2;
-  // height: 25vh;
+  background-color: purple;
+  padding: 2rem;
   display: flex;
-  position: absolute;
-  top: 55.5vh;
-  width: 100%;
   justify-content: space-evenly;
-}
-.singleSkill {
-  width: 15.6rem;
-  height: 15.6rem;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  background-color: #ff6961;
-  padding-left: 15px;
-  padding-right: 15px;
-  &:hover {
-    background-color: #ad4e49;
+
+  .singleSkill {
     color: white;
-    cursor: pointer;
+    background-color: #ff6961;
+    padding: 0.5rem;
+    display: flex;
+  }
+  .skillSpacer {
+    width: 5vh;
   }
 }
-.push {
-  height: 50%;
-}
-.under {
-  padding: 5px;
-  display: flex;
-  padding-left: 30px;
-  padding-top: 15px;
-  div {
-    padding-left: 30px;
+@media (max-width: 600px) {
+  .Services {
+    flex-direction: row-reverse;
   }
-  img {
-    width: 15%;
-    align-self: flex-start;
+  .skillSet {
+    padding-bottom: 30vh;
+    display: flex;
+    flex-direction: column;
+    .singleSkill {
+      flex-direction: column;
+    }
+    .skillSpacer {
+      height: 3vh;
+    }
   }
-}
-.skill {
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  padding-top: 0px;
-}
-.project {
-  font-family: "Share Tech", sans-serif;
-  font-weight: lighter;
-  font-size: 14px;
-}
-.skillLogo {
-  width: 15%;
-  align-self: flex-start;
 }
