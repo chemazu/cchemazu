@@ -23,6 +23,7 @@ export class About extends Component {
       Contact: false,
     });
   };
+
   showWork = () => {
     this.setState({
       Services: false,

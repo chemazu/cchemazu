@@ -77,6 +77,14 @@ export default function MiniView({ display }) {
           </div>
         </div>
       );
+    case "Product":
+      return <div>Product</div>;
+      break;
+    case "Branding":
+      return <div>Branding</div>;
+      break;
+    case "Developer":
+      return <div>Developer</div>;
       break;
     default:
       break;

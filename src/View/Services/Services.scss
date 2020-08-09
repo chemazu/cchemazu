@@ -7,6 +7,7 @@
 .display {
   background-color: orangered;
   padding: 2rem;
+  padding-left: 4rem;
 }
 p.skill,
 p.project {
@@ -33,7 +34,13 @@ p.project {
   .Services {
     flex-direction: row-reverse;
   }
+  .display {
+    flex-basis: 70%;
+    padding: 2rem;
+    padding-top: 4rem;
+  }
   .skillSet {
+    flex-basis: 30%;
     padding-bottom: 30vh;
     display: flex;
     flex-direction: column;
