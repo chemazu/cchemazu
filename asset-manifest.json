@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cchemazu/static/css/main.4c5c241f.chunk.css",
+    "main.css": "/cchemazu/static/css/main.2df47be2.chunk.css",
     "main.js": "/cchemazu/static/js/main.a8bce585.chunk.js",
     "main.js.map": "/cchemazu/static/js/main.a8bce585.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
@@ -9,10 +9,10 @@
     "static/js/2.bc6bea0d.chunk.js": "/cchemazu/static/js/2.bc6bea0d.chunk.js",
     "static/js/2.bc6bea0d.chunk.js.map": "/cchemazu/static/js/2.bc6bea0d.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.89c669a3135e4d5dd4525efac307f001.js": "/cchemazu/precache-manifest.89c669a3135e4d5dd4525efac307f001.js",
+    "precache-manifest.ac951e1a6aed2d8e9ee8633c2c382cc4.js": "/cchemazu/precache-manifest.ac951e1a6aed2d8e9ee8633c2c382cc4.js",
     "service-worker.js": "/cchemazu/service-worker.js",
     "static/css/2.8321249c.chunk.css.map": "/cchemazu/static/css/2.8321249c.chunk.css.map",
-    "static/css/main.4c5c241f.chunk.css.map": "/cchemazu/static/css/main.4c5c241f.chunk.css.map",
+    "static/css/main.2df47be2.chunk.css.map": "/cchemazu/static/css/main.2df47be2.chunk.css.map",
     "static/js/2.bc6bea0d.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.bc6bea0d.chunk.js.LICENSE.txt",
     "static/media/box.svg": "/cchemazu/static/media/box.d7d2128a.svg",
     "static/media/codepen.svg": "/cchemazu/static/media/codepen.cfb59a77.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.f48920e0.js",
     "static/css/2.8321249c.chunk.css",
     "static/js/2.bc6bea0d.chunk.js",
-    "static/css/main.4c5c241f.chunk.css",
+    "static/css/main.2df47be2.chunk.css",
     "static/js/main.a8bce585.chunk.js"
   ]
 }
