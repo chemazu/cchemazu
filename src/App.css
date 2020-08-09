@@ -1,3 +1,23 @@
 * {
   /* overflow-y: hidden; */
 }
+.hideMobile {
+  display: none;
+}
+@media (max-width: 600px) {
+  .hideWeb {
+    display: none;
+  }
+  .hideMobile {
+    display: inline;
+  }
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}

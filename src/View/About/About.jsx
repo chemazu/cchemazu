@@ -5,6 +5,7 @@ import github from "../../Images/github.svg";
 import codepen from "../../Images/codepen.svg";
 import MiniView from "../MiniView/MiniView";
 import C from "../../Images/C.png";
+import DisplayCarousel from "../../Custom/Carousel/Carousel";
 
 export class About extends Component {
   constructor() {
@@ -57,9 +58,9 @@ export class About extends Component {
               {/* <p onClick={setMiniView("Services")}>Services</p>
                     <p onClick={setMiniView("Work")}>Work</p>
                     <p onClick={setMiniView("Contact")}>Contact</p> */}
-              <p onClick={this.showService}>Services</p>
-              <p onClick={this.showWork}>Work</p>
-              <p onClick={this.showContact}>Contact</p>
+              <li onClick={this.showService}>Services</li>
+              <li onClick={this.showWork}>Work</li>
+              <li onClick={this.showContact}>Contact</li>
             </div>
             {Services ? <MiniView display="Services" /> : null}
             {Work ? <MiniView display="Work" /> : null}

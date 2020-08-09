@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import arrow from "../../Images/right-arrow.svg";
 import "./MiniView.scss";
 import PortfolioCard from "../../Custom/PortfolioCard/PortfolioCard";
+import DisplayCarousel from "../../Custom/Carousel/Carousel";
 
 export default function MiniView({ display }) {
   switch (display) {
@@ -36,16 +37,15 @@ export default function MiniView({ display }) {
       return (
         <div className="bio">
           <p className="introduction">-Portfolio</p>
-          <h3 className="bioHeading">Creative Works</h3>
+          <h3 className="bioHeading">
+            All Creative work carefully curated and presented
+          </h3>
           <p className="introduction" id="paragraph">
-            All Creative work carfully curated and presented, for aesthics and
-            functionality. You cant use up creativity,the more you use, the more
-            you have in your significant life
+            You cant use up creativity,the more you use, the more you have in
+            your significant life
           </p>
           <div className="portfolioCardWrapper">
-            <PortfolioCard content={"Expedicom"} />
-            {/* <PortfolioCard content={"Rotimi"} />
-            <PortfolioCard content={"Medgric"} /> */}
+            <DisplayCarousel />
           </div>
 
           <div className="learnMore">
