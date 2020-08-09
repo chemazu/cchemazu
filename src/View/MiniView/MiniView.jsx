@@ -78,13 +78,64 @@ export default function MiniView({ display }) {
         </div>
       );
     case "Product":
-      return <div>Product</div>;
+      return (
+        <div className="bio">
+          <p className="introduction">-Product Designer</p>
+          <h3 className="bioHeading">Creating digital fully-functional products</h3>
+          <p className="introduction" id="paragraph">
+          Sed ut perspiciatis unde omnis iste natus error 
+          sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore 
+          veritatis et quasi architecto .
+          </p>
+          <div className="learnMore">
+            <div className="text">
+              <img src={arrow} alt="learn more" />
+            </div>
+            <hr />
+          </div>
+        </div>
+      );
       break;
     case "Branding":
-      return <div>Branding</div>;
+      return (
+        <div className="bio">
+          <p className="introduction">-Branding Designer</p>
+          <h3 className="bioHeading">Making your brand highly visible</h3>
+          <p className="introduction" id="paragraph">
+          Sed ut perspiciatis unde omnis iste natus error 
+          sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore
+          veritatis et quasi architecto .
+          </p>
+          <div className="learnMore">
+            <div className="text">
+              <img src={arrow} alt="learn more" />
+            </div>
+            <hr />
+          </div>
+        </div>
+      );
       break;
     case "Developer":
-      return <div>Developer</div>;
+      return (
+        <div className="bio">
+          <p className="introduction">-FullStack Developer</p>
+          <h3 className="bioHeading">Proficient in both front and back end coding</h3>
+          <p className="introduction" id="paragraph">
+          Sed ut perspiciatis unde omnis iste natus error 
+          sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore 
+          veritatis et quasi architecto .
+          </p>
+          <div className="learnMore">
+            <div className="text">
+              <img src={arrow} alt="learn more" />
+            </div>
+            <hr />
+          </div>
+        </div>
+      );
       break;
     default:
       break;
