@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cchemazu/static/css/main.b44ec726.chunk.css",
-    "main.js": "/cchemazu/static/js/main.6891f647.chunk.js",
-    "main.js.map": "/cchemazu/static/js/main.6891f647.chunk.js.map",
+    "main.css": "/cchemazu/static/css/main.4c5c241f.chunk.css",
+    "main.js": "/cchemazu/static/js/main.a8bce585.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.a8bce585.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
     "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
     "static/css/2.8321249c.chunk.css": "/cchemazu/static/css/2.8321249c.chunk.css",
-    "static/js/2.9749a144.chunk.js": "/cchemazu/static/js/2.9749a144.chunk.js",
-    "static/js/2.9749a144.chunk.js.map": "/cchemazu/static/js/2.9749a144.chunk.js.map",
+    "static/js/2.bc6bea0d.chunk.js": "/cchemazu/static/js/2.bc6bea0d.chunk.js",
+    "static/js/2.bc6bea0d.chunk.js.map": "/cchemazu/static/js/2.bc6bea0d.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.2b262c3a1480057b4250d05d94302a22.js": "/cchemazu/precache-manifest.2b262c3a1480057b4250d05d94302a22.js",
+    "precache-manifest.89c669a3135e4d5dd4525efac307f001.js": "/cchemazu/precache-manifest.89c669a3135e4d5dd4525efac307f001.js",
     "service-worker.js": "/cchemazu/service-worker.js",
     "static/css/2.8321249c.chunk.css.map": "/cchemazu/static/css/2.8321249c.chunk.css.map",
-    "static/css/main.b44ec726.chunk.css.map": "/cchemazu/static/css/main.b44ec726.chunk.css.map",
-    "static/js/2.9749a144.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.9749a144.chunk.js.LICENSE.txt",
+    "static/css/main.4c5c241f.chunk.css.map": "/cchemazu/static/css/main.4c5c241f.chunk.css.map",
+    "static/js/2.bc6bea0d.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.bc6bea0d.chunk.js.LICENSE.txt",
     "static/media/box.svg": "/cchemazu/static/media/box.d7d2128a.svg",
     "static/media/codepen.svg": "/cchemazu/static/media/codepen.cfb59a77.svg",
     "static/media/PortfolioCard.scss": "/cchemazu/static/media/expedicom.b9208e44.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.f48920e0.js",
     "static/css/2.8321249c.chunk.css",
-    "static/js/2.9749a144.chunk.js",
-    "static/css/main.b44ec726.chunk.css",
-    "static/js/main.6891f647.chunk.js"
+    "static/js/2.bc6bea0d.chunk.js",
+    "static/css/main.4c5c241f.chunk.css",
+    "static/js/main.a8bce585.chunk.js"
   ]
 }
