@@ -28,7 +28,6 @@ export default function MiniView({ display }) {
                 <img src={arrow} alt="learn more" />
               </div>
             </Link>
-            <hr />
           </div>
         </div>
       );
@@ -53,7 +52,7 @@ export default function MiniView({ display }) {
               <p>explore more</p>
               <img src={arrow} alt="learn more" />
             </div>
-            <hr />
+            {/* <hr /> */}
           </div>
         </div>
       );
@@ -73,7 +72,7 @@ export default function MiniView({ display }) {
               <p>say hi!</p>
               <img src={arrow} alt="learn more" />
             </div>
-            <hr />
+            {/* <hr /> */}
           </div>
         </div>
       );
@@ -81,18 +80,19 @@ export default function MiniView({ display }) {
       return (
         <div className="bio">
           <p className="introduction">-Product Designer</p>
-          <h3 className="bioHeading">Creating digital fully-functional products</h3>
+          <h3 className="bioHeading">
+            Creating digital fully-functional products
+          </h3>
           <p className="introduction" id="paragraph">
-          Sed ut perspiciatis unde omnis iste natus error 
-          sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore 
-          veritatis et quasi architecto .
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto .
           </p>
           <div className="learnMore">
             <div className="text">
               <img src={arrow} alt="learn more" />
             </div>
-            <hr />
+            {/* <hr /> */}
           </div>
         </div>
       );
@@ -103,16 +103,15 @@ export default function MiniView({ display }) {
           <p className="introduction">-Branding Designer</p>
           <h3 className="bioHeading">Making your brand highly visible</h3>
           <p className="introduction" id="paragraph">
-          Sed ut perspiciatis unde omnis iste natus error 
-          sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore
-          veritatis et quasi architecto .
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto .
           </p>
           <div className="learnMore">
             <div className="text">
               <img src={arrow} alt="learn more" />
             </div>
-            <hr />
+            {/* <hr /> */}
           </div>
         </div>
       );
@@ -121,18 +120,19 @@ export default function MiniView({ display }) {
       return (
         <div className="bio">
           <p className="introduction">-FullStack Developer</p>
-          <h3 className="bioHeading">Proficient in both front and back end coding</h3>
+          <h3 className="bioHeading">
+            Proficient in both front and back end coding
+          </h3>
           <p className="introduction" id="paragraph">
-          Sed ut perspiciatis unde omnis iste natus error 
-          sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore 
-          veritatis et quasi architecto .
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto .
           </p>
           <div className="learnMore">
             <div className="text">
               <img src={arrow} alt="learn more" />
             </div>
-            <hr />
+            {/* <hr /> */}
           </div>
         </div>
       );

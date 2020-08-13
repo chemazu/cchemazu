@@ -1,14 +1,16 @@
 * {
   /* overflow-y: hidden; */
+  padding: 0;
+  margin: 0;
 }
-.hideMobile {
+.hideOnWeb {
   display: none;
 }
 @media (max-width: 600px) {
-  .hideWeb {
+  .hideOnMobile {
     display: none;
   }
-  .hideMobile {
+  .hideOnWeb {
     display: inline;
   }
 }

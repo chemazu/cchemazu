@@ -41,7 +41,7 @@ export class Services extends Component {
           <div className="singleSkill" onClick={this.showProduct}>
             {/* <div className="push"></div> */}
             <div className="under">
-              {/* <img className="skillLogo" src={box} /> */}
+              <img className="skillLogo" src={box} />
               <div>
                 <p className="skill">Product Designer.</p>
                 <p className="project">38 Projects</p>
@@ -52,7 +52,7 @@ export class Services extends Component {
           <div className="singleSkill" onClick={this.showBranding}>
             <div className="push"></div>
             <div className="under">
-              {/* <img className="skillLogo" src={pen} /> */}
+              <img className="skillLogo" src={pen} />
               <div>
                 <p className="skill">Branding Designer.</p>
                 <p className="project">38 Projects</p>
@@ -60,11 +60,10 @@ export class Services extends Component {
             </div>
           </div>
           <div className="skillSpacer"></div>
-
           <div className="singleSkill" onClick={this.showDeveloper}>
             <div className="push"></div>
             <div className="under">
-              {/* <img className="skillLogo" src={monitor} /> */}
+              <img className="skillLogo" src={monitor} />
               <div>
                 <p className="skill">Full Stack Developer.</p>
                 <p className="project">38 Projects</p>

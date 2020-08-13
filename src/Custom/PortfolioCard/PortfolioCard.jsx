@@ -4,10 +4,16 @@ import "./PortfolioCard.scss";
 export default function PortfolioCard({ content }) {
   return (
     <div className="PortfolioCard">
-      <div className="cardContent">
-        <h3>{content}</h3>
-        <button>View</button>
-      </div>
+      <h2>{"01"}</h2>
+      {/* <div className="cardContent"> */}
+      <p>
+        {
+          (content,
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ad minim veniam")
+        }
+      </p>
+      View<p className="button1">View</p>
+      {/* </div> */}
     </div>
   );
 }
