@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cchemazu/static/css/main.b10a7fe3.chunk.css",
-    "main.js": "/cchemazu/static/js/main.6bcb863b.chunk.js",
-    "main.js.map": "/cchemazu/static/js/main.6bcb863b.chunk.js.map",
+    "main.css": "/cchemazu/static/css/main.72e96a8f.chunk.css",
+    "main.js": "/cchemazu/static/js/main.170189d8.chunk.js",
+    "main.js.map": "/cchemazu/static/js/main.170189d8.chunk.js.map",
     "runtime-main.js": "/cchemazu/static/js/runtime-main.f48920e0.js",
     "runtime-main.js.map": "/cchemazu/static/js/runtime-main.f48920e0.js.map",
     "static/css/2.8321249c.chunk.css": "/cchemazu/static/css/2.8321249c.chunk.css",
-    "static/js/2.481e9871.chunk.js": "/cchemazu/static/js/2.481e9871.chunk.js",
-    "static/js/2.481e9871.chunk.js.map": "/cchemazu/static/js/2.481e9871.chunk.js.map",
+    "static/js/2.4e6371d6.chunk.js": "/cchemazu/static/js/2.4e6371d6.chunk.js",
+    "static/js/2.4e6371d6.chunk.js.map": "/cchemazu/static/js/2.4e6371d6.chunk.js.map",
     "index.html": "/cchemazu/index.html",
-    "precache-manifest.d84535417112d44bfa62eec532b50c07.js": "/cchemazu/precache-manifest.d84535417112d44bfa62eec532b50c07.js",
+    "precache-manifest.73690eed78aefb7ea6384f201e18cc25.js": "/cchemazu/precache-manifest.73690eed78aefb7ea6384f201e18cc25.js",
     "service-worker.js": "/cchemazu/service-worker.js",
     "static/css/2.8321249c.chunk.css.map": "/cchemazu/static/css/2.8321249c.chunk.css.map",
-    "static/css/main.b10a7fe3.chunk.css.map": "/cchemazu/static/css/main.b10a7fe3.chunk.css.map",
-    "static/js/2.481e9871.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.481e9871.chunk.js.LICENSE.txt",
+    "static/css/main.72e96a8f.chunk.css.map": "/cchemazu/static/css/main.72e96a8f.chunk.css.map",
+    "static/js/2.4e6371d6.chunk.js.LICENSE.txt": "/cchemazu/static/js/2.4e6371d6.chunk.js.LICENSE.txt",
     "static/media/box.svg": "/cchemazu/static/media/box.d7d2128a.svg",
     "static/media/codepen.svg": "/cchemazu/static/media/codepen.cfb59a77.svg",
     "static/media/github.svg": "/cchemazu/static/media/github.cbdeb7be.svg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.f48920e0.js",
     "static/css/2.8321249c.chunk.css",
-    "static/js/2.481e9871.chunk.js",
-    "static/css/main.b10a7fe3.chunk.css",
-    "static/js/main.6bcb863b.chunk.js"
+    "static/js/2.4e6371d6.chunk.js",
+    "static/css/main.72e96a8f.chunk.css",
+    "static/js/main.170189d8.chunk.js"
   ]
 }
